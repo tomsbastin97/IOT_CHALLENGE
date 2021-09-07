@@ -19,7 +19,7 @@ void loop() {
 }
 ```
 #### Output:
-![Hello World LED Blinking](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp1_hello.jpg)    
+![Hello World LED Blinking](IOT_CHALLENGE/iot_files/exp1_hello.jpg)
 
 
 ### Experiment 2 - Traffic Light
