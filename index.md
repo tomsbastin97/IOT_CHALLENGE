@@ -19,12 +19,12 @@ void loop() {
 }
 ```
 #### Output:
-![Hello World LED Blinking](https://user-images.githubusercontent.com/77291059/131890696-16337309-ce81-4ffc-b089-3bbafa9cb33f.png)
+![exp1_hello](https://user-images.githubusercontent.com/67751535/132454490-03694c34-4df2-432d-ba16-6b2e4bb9c935.jpg)
 
 
 ### Experiment 2 - Traffic Light
 
-![Traffic Light](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp2.jpg)
+![exp2](https://user-images.githubusercontent.com/67751535/132454521-99fd6786-77fe-434a-8ea2-9eea5ce0c548.jpg)
 
 #### Code
 ```ino
@@ -55,14 +55,13 @@ void loop()
   digitalWrite(8, LOW);
 }
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U7O_d0GM-MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 ### Experiment 3 - LED Chasing Effect
 
-![Led Chasing](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp3.jpg)
+![exp3](https://user-images.githubusercontent.com/67751535/132454580-83709401-5780-4cec-9108-f242f961bbe3.jpg)
 
 #### Code
 ```ino
@@ -95,7 +94,7 @@ void loop()
 
 ### Experiment 4 - Button Controlled LED
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp4_buttonOff.jpg)
+![exp4_buttonOff](https://user-images.githubusercontent.com/67751535/132454628-df345884-fea5-4c36-a214-72d3ebe6b396.jpg)
 
 #### Code
 ```ino
@@ -119,12 +118,11 @@ void loop()
 }
 ```
 #### Output:
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp4_butOn.jpg)    
+![exp4_butOn](https://user-images.githubusercontent.com/67751535/132454669-a6688f6b-36e7-4a9b-ad3a-d11cbbaaf6c2.jpg)
 
 
 ### Experiment 5 - Buzzer
 
-![image]()
 #### Code
 ```ino
 int x = 8;
@@ -137,14 +135,13 @@ void loop()
   digitalWrite(x, HIGH);
 }
 ```
-
 #### Output:
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iyVhGtBd2jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Experiment 6 - RGB LED
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp6.jpg)
+![exp6](https://user-images.githubusercontent.com/67751535/132455166-ffe38d84-8e1a-4013-bd79-1ab58725a993.jpg)
 
 #### Code
 ```ino
@@ -177,14 +174,13 @@ for(x=0; x<255; x++)
  Serial.println(x, DEC);
 }
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OAAo43o_JXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 ### Experiment 7 - LDR Light Sensor
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp7.jpg)
+![exp7](https://user-images.githubusercontent.com/67751535/132455193-3f415888-d24f-40dd-b17b-efc2b8e6b9af.jpg)
 
 #### Code
 ```ino
@@ -210,7 +206,7 @@ delay(10);// wait for 0.01
 
 ### Experiment 8 - Flame Sensor
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp8.jpg)
+![exp8](https://user-images.githubusercontent.com/67751535/132455233-33379aef-e66c-4e49-8d39-64c7eb37d66f.jpg)
 
 #### Code
 ```ino
@@ -237,14 +233,13 @@ void loop()
    delay(500); 
 }
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L5onDXsYdF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 ### Experiment 9 - LM35 Temperature Sensor
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp9.jpg)
+![lm35](https://user-images.githubusercontent.com/77291059/132124492-23b45b25-9d8a-482c-99f8-752a0e9fff09.png)
 
 #### Code
 ```ino
@@ -265,13 +260,13 @@ Serial.println("C");// display “C” characters
 delay(500);// wait for 0.5 second
 }
 ```
-
-#### Output: ![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp9_lm35%20toms.png)    
+#### Output:
+![exp9_lm35 toms](https://user-images.githubusercontent.com/67751535/132455377-eaac8444-3624-47ec-a2b6-61cce2042109.png)
 
 
 ### Experiment 10 - IR Remote Control Using TSOP
 
-![image]()
+![image](https://user-images.githubusercontent.com/77291059/132124762-6a958e10-e01e-43b2-add0-0ef739ff107d.png)
 
 #### Code
 ```ino
@@ -408,7 +403,7 @@ irrecv.resume(); // Receive the next value
 
 ### Experiment 11 - Potentiometer analog Value Reading
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp11.jpg)
+![exp11](https://user-images.githubusercontent.com/67751535/132455671-4a06b2d2-0e4e-4d01-87df-2524462e1add.jpg)
 
 #### Code
 ```ino
@@ -430,14 +425,13 @@ val=analogRead(potpin);// read the analog value of analog pin 0, and assign it t
 Serial.println(val);// display val’s value
 }
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NHFjnXhwGJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 ### Experiment 12 - 7 Segment Display
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp12.jpg)
+![exp12](https://user-images.githubusercontent.com/67751535/132455717-bb544a87-8335-491e-8bcc-9595c5af6efa.jpg)
 
 #### Code
 ```ino
@@ -582,14 +576,13 @@ digital_9();// display number 9
 delay(1000); // wait for 1s
 }}
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mdCAwSS6UlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 ### Assignment1 - Thermometer using LED and LM35
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp9.jpg)
+![exp14](https://user-images.githubusercontent.com/67751535/132455923-30b41212-9438-4c62-9d74-5516ac9656bb.jpg)
 
 #### Code
 ```ino
@@ -666,14 +659,13 @@ digitalWrite(LED6, LOW);
 }
 }
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c9MO5_uWXug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 ### Assignment2 - Digital Dice
 
-![image](https://github.com/tomsbastin97/IOT_CHALLENGE/blob/main/iot_files/exp13.jpg)
+![exp13](https://user-images.githubusercontent.com/67751535/132455961-dda5ca0f-0274-43c4-85ec-fbaba5918371.jpg)
 
 #### Code
 ```ino
@@ -779,7 +771,6 @@ case 5:
 }
 }
 ```
-
 #### Output:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xXhybyqHd7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
