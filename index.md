@@ -7,10 +7,15 @@
 
 #### Components Required:
 Arduino Uno Board
+
 USB Cable
+
 LED (Any Color) x 1 Nos
+
 220 OHM Resistor X 1 Nos
+
 Breadboard
+
 Jumper Wires (Male to Male ) X 2 Nos
 
 #### Circuit Diagram:
@@ -39,12 +44,19 @@ void loop() {
 
 #### Components required:
 Arduino board *1
+
 USB cable *1
+
 Red M5 LED*1
+
 Yellow M5 LED*1
+
 Green M5 LED*1
+
 220Ω resistor *3
+
 Breadboard*1
+
 Breadboard jumper wires* several
 
 #### Circuit Diagram:
@@ -87,6 +99,22 @@ void loop()
 
 ![exp3](https://user-images.githubusercontent.com/67751535/132454580-83709401-5780-4cec-9108-f242f961bbe3.jpg)
 
+#### Components Required:
+Led *6
+
+Arduino board *1
+
+220Ω resistor *6
+
+Breadboard *1
+
+USB cable*1
+
+Breadboard wire *13
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-12 20-46-13](https://user-images.githubusercontent.com/67751535/132993268-45b3b2ef-1b93-415f-938a-9b02cfebccb5.png)
+
 #### Code
 ```ino
 int BASE = 2 ;
@@ -120,6 +148,26 @@ void loop()
 
 ![exp4_buttonOff](https://user-images.githubusercontent.com/67751535/132454628-df345884-fea5-4c36-a214-72d3ebe6b396.jpg)
 
+#### Components Required:
+Arduino Uno
+
+Button switch*1
+
+Red M5 LED*1
+
+220ΩResistor*1
+
+10KΩ Resistor*1
+
+Breadboard*1
+
+Breadboard Jumper Wire*6
+
+USB cable*1
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-12 20-48-59](https://user-images.githubusercontent.com/67751535/132993278-915412d5-bfac-4f5a-86c5-78ae0ea276c0.png)
+
 #### Code
 ```ino
 int x;
@@ -147,6 +195,20 @@ void loop()
 
 ### Experiment 5 - Buzzer
 
+#### Components Required:
+Arduino Uno
+
+Buzzer*1
+
+Breadboard*1
+
+Breadboard Jumper Wire*2
+
+USB cable*1
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-12 20-52-03](https://user-images.githubusercontent.com/67751535/132993426-df0800b3-e1f0-48e3-874c-bce3b8a18ed9.png)
+
 #### Code
 ```ino
 int x = 8;
@@ -166,6 +228,20 @@ void loop()
 ### Experiment 6 - RGB LED
 
 ![exp6](https://user-images.githubusercontent.com/67751535/132455166-ffe38d84-8e1a-4013-bd79-1ab58725a993.jpg)
+
+#### Components Required:
+Arduino Uno
+
+USB Cable * 1
+
+RGB LED * 1
+
+Resistor *3
+
+Breadboard jumper wire*5
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-12 20-53-19](https://user-images.githubusercontent.com/67751535/132993435-b08d4290-243c-4472-885c-eb5d8878882b.png)
 
 #### Code
 ```ino
