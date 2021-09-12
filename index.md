@@ -5,6 +5,17 @@
 
 ### Experiment 1 - Hello World LED Blinking
 
+#### Components Required:
+Arduino Uno Board
+USB Cable
+LED (Any Color) x 1 Nos
+220 OHM Resistor X 1 Nos
+Breadboard
+Jumper Wires (Male to Male ) X 2 Nos
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-12 20-34-31](https://user-images.githubusercontent.com/67751535/132992862-5b25a2bf-22a0-4e4d-bc98-90ffeee61bea.png)
+
 #### Code
 ```ino
 void setup() 
@@ -25,6 +36,19 @@ void loop() {
 ### Experiment 2 - Traffic Light
 
 ![exp2](https://user-images.githubusercontent.com/67751535/132454521-99fd6786-77fe-434a-8ea2-9eea5ce0c548.jpg)
+
+#### Components required:
+Arduino board *1
+USB cable *1
+Red M5 LED*1
+Yellow M5 LED*1
+Green M5 LED*1
+220Ω resistor *3
+Breadboard*1
+Breadboard jumper wires* several
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-12 20-34-46](https://user-images.githubusercontent.com/67751535/132992943-f7dcafee-3a69-4f9d-8de3-7a83e41ae5ea.png)
 
 #### Code
 ```ino
