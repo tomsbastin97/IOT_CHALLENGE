@@ -375,11 +375,6 @@ void loop()
 
 ### Experiment 9 - LM35 Temperature Sensor
 
-![lm35](https://user-images.githubusercontent.com/77291059/132124492-23b45b25-9d8a-482c-99f8-752a0e9fff09.png)
-
-#### Circuit Diagram:
-![Screenshot from 2021-09-13 15-03-34](https://user-images.githubusercontent.com/67751535/133061202-06459057-ebe6-407b-895d-1f8926c28a15.png)
-
 #### Components Required:
 Arduino Uno  Board*1
 
@@ -390,6 +385,9 @@ Breadboard*1
 Breadboard Jumper Wire*5
 
 USB cable
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-13 15-03-34](https://user-images.githubusercontent.com/67751535/133061202-06459057-ebe6-407b-895d-1f8926c28a15.png)
 
 #### Code
 ```ino
