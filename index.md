@@ -282,6 +282,26 @@ for(x=0; x<255; x++)
 
 ![exp7](https://user-images.githubusercontent.com/67751535/132455193-3f415888-d24f-40dd-b17b-efc2b8e6b9af.jpg)
 
+#### Circuit Diagram:
+![Screenshot from 2021-09-13 15-01-14](https://user-images.githubusercontent.com/67751535/133060945-797e88dc-836e-4833-8f15-8dad7745cb89.png)
+
+#### Components Required:
+Arduino Uno Board
+
+Photo Resistor*1
+
+Red M5 LED*1
+
+10KΩ Resistor*1
+
+220Ω Resistor*1
+
+Breadboard*1
+
+Breadboard Jumper Wire*5
+
+USB cable*1
+
 #### Code
 ```ino
 int potpin=0;// initialize analog pin 0, connected with photovaristor
@@ -307,6 +327,22 @@ delay(10);// wait for 0.01
 ### Experiment 8 - Flame Sensor
 
 ![exp8](https://user-images.githubusercontent.com/67751535/132455233-33379aef-e66c-4e49-8d39-64c7eb37d66f.jpg)
+
+# Circuit Diagram:
+![Screenshot from 2021-09-13 15-02-23](https://user-images.githubusercontent.com/67751535/133061110-990053c3-ef59-49d9-8550-6e1ddd0a64e4.png)
+
+#### Components Required:
+Arduino Uno Board*1
+
+Flame Sensor *1
+
+Buzzer *1
+
+10K Resistor *1
+
+Breadboard Jumper Wire*6
+
+USB cable*1
 
 #### Code
 ```ino
@@ -341,6 +377,20 @@ void loop()
 
 ![lm35](https://user-images.githubusercontent.com/77291059/132124492-23b45b25-9d8a-482c-99f8-752a0e9fff09.png)
 
+#### Circuit Diagram:
+![Screenshot from 2021-09-13 15-03-34](https://user-images.githubusercontent.com/67751535/133061202-06459057-ebe6-407b-895d-1f8926c28a15.png)
+
+#### Components Required:
+Arduino Uno  Board*1
+
+LM35*1
+
+Breadboard*1
+
+Breadboard Jumper Wire*5
+
+USB cable
+
 #### Code
 ```ino
 int potPin = 0; // initialize analog pin 0 for LM35 temperature sensor
@@ -367,6 +417,24 @@ delay(500);// wait for 0.5 second
 ### Experiment 10 - IR Remote Control Using TSOP
 
 ![image](https://user-images.githubusercontent.com/77291059/132124762-6a958e10-e01e-43b2-add0-0ef739ff107d.png)
+
+#### Components Required:
+Arduino Uno Board*1
+
+Infrared Remote Controller(You can use TV Remote or any other remote) *1
+
+Infrared Receiver *1
+
+LED *6
+
+220ΩResistor *6
+
+Breadboard Wire *11
+
+USB cable*1
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-13 15-09-34](https://user-images.githubusercontent.com/67751535/133062232-091f5d2c-b6f3-4397-995d-25ecdfb68225.png)
 
 #### Code
 ```ino
@@ -505,6 +573,20 @@ irrecv.resume(); // Receive the next value
 
 ![exp11](https://user-images.githubusercontent.com/67751535/132455671-4a06b2d2-0e4e-4d01-87df-2524462e1add.jpg)
 
+#### Components Required:
+Arduino Uno Board*1
+
+10K Potentiometer *1
+
+Breadboard*1
+
+Breadboard Jumper Wire*3
+
+USB cable*1
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-13 15-12-51](https://user-images.githubusercontent.com/67751535/133062287-e627e3b1-19af-4de1-8417-10128857ef1c.png)
+
 #### Code
 ```ino
 int potpin=0;// initialize analog pin 0
@@ -532,6 +614,22 @@ Serial.println(val);// display val’s value
 ### Experiment 12 - 7 Segment Display
 
 ![exp12](https://user-images.githubusercontent.com/67751535/132455717-bb544a87-8335-491e-8bcc-9595c5af6efa.jpg)
+
+#### Components Required:
+Arduino Uno Board*1
+
+1-digit LED Segment Display*1
+
+220Ω Resistor*8
+
+Breadboard*1
+
+Breadboard Jumper Wires *several
+
+USB cable*1
+
+#### Circuit Diagram:
+![Screenshot from 2021-09-13 15-13-05](https://user-images.githubusercontent.com/67751535/133062317-3e931a7a-d519-42a4-bd31-ab597269cf98.png)
 
 #### Code
 ```ino
