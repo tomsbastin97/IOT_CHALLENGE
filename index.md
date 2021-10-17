@@ -971,3 +971,42 @@ case 5:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xXhybyqHd7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
+
+
+# KERALA IoT CHALLENGE Level2
+
+### Exp 1 : Hello World LED Program Using Blynk App
+
+#### Code
+```ino
+
+// Fill-in information from your Blynk Template here
+//#define BLYNK_TEMPLATE_ID           "TMPLxxxxxx"
+//#define BLYNK_DEVICE_NAME           "Device"
+
+#define BLYNK_FIRMWARE_VERSION        "0.1.0"
+
+#define BLYNK_PRINT Serial
+//#define BLYNK_DEBUG
+
+#define APP_DEBUG
+
+// Uncomment your board, or configure a custom board in Settings.h
+//#define USE_WROVER_BOARD
+//#define USE_TTGO_T7
+
+#include "BlynkEdgent.h"
+
+void setup()
+{
+  Serial.begin(115200);
+  delay(100);
+
+  BlynkEdgent.begin();
+}
+
+void loop() {
+  BlynkEdgent.run();
+}
+```
+
