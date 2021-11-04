@@ -1,6 +1,42 @@
-# Kerala IoT Challenge Level1
+# Kerala IoT Challenge 
 
 > **Foxlab Makerspace** in association with **GTech - Group of Technology Companies** in Kerala is launching our prestigious program  **“Kerala IoT Challenge 2021”**,  with a vision to mould 100 IoT experts in Kerala, hosting on the µLearn platform. **Kerala IoT Challenge** is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1 and others can enter laterally to the desired layer after an evaluation.
+
+# Level1
+
+### Experiment 1
+
+#### Components Required:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aU-hhqk4Ubo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### E2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nc5W79ng6Wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### E3
+
+![Uploading 3.SoilMoistr.jpg…]()
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwPlrSrYa-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### E4
+![Uploading 4.UltrasS.jpg…]()
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tKnXDdQtU30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+### E5
+
+![5 Ir](https://user-images.githubusercontent.com/67751535/140392118-9b45b197-d6e7-467f-a8a2-2f0c3e5bde06.jpg)
+
+![Uploading 5.IrOut.jpg…]()
 
 
 ### Experiment 1 - Hello World LED Blinking
