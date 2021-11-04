@@ -7,17 +7,27 @@
 ### Experiment 1
 
 #### Components Required:
+![1](https://user-images.githubusercontent.com/67751535/140394256-df8bc5b6-75bd-4339-b1a3-a8401b7a0faa.png)
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aU-hhqk4Ubo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### E2
+![2](https://user-images.githubusercontent.com/67751535/140394304-afd796e3-b25c-44b4-9eef-7b11362f5668.png)
+
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nc5W79ng6Wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### E3
 
-![Uploading 3.SoilMoistr.jpg…]()
+![3](https://user-images.githubusercontent.com/67751535/140394354-66f63b07-bac1-46c1-8d03-bcbaf5d722bc.png)
+
+
+![3 SoilMoistr](https://user-images.githubusercontent.com/67751535/140392693-e5ccb666-8884-4634-9c46-0bcdd1ce49e6.jpg)
 
 
 
@@ -25,7 +35,11 @@
 
 
 ### E4
-![Uploading 4.UltrasS.jpg…]()
+![4 UltrasS](https://user-images.githubusercontent.com/67751535/140392891-458fb08a-ed90-4c28-a5df-4d73ec1af47b.jpg
+
+![4](https://user-images.githubusercontent.com/67751535/140394451-b623f6cc-7ebd-408c-ac85-af1a6a869fcd.png)
+
+
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tKnXDdQtU30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,7 +50,13 @@
 
 ![5 Ir](https://user-images.githubusercontent.com/67751535/140392118-9b45b197-d6e7-467f-a8a2-2f0c3e5bde06.jpg)
 
-![Uploading 5.IrOut.jpg…]()
+
+![5](https://user-images.githubusercontent.com/67751535/140394502-cecde79b-c28c-4c1b-aed7-f1e1fedc8f7e.png)
+
+
+
+![5 IrOut](https://user-images.githubusercontent.com/67751535/140392992-9a8cb0a6-7453-4932-a599-3af987936cd7.jpg)
+
 
 
 ### Experiment 1 - Hello World LED Blinking
