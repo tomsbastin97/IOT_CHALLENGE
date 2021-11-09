@@ -2,11 +2,12 @@
 
 > **Foxlab Makerspace** in association with **GTech - Group of Technology Companies** in Kerala is launching our prestigious program  **“Kerala IoT Challenge 2021”**,  with a vision to mould 100 IoT experts in Kerala, hosting on the µLearn platform. **Kerala IoT Challenge** is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1 and others can enter laterally to the desired layer after an evaluation.
 
-**Note:** The contents of this page are arranged in the descending order.
-**List of Contents:**
-# [Level1](#level1)
-# [Level2](#level2)
 
+# **List of Contents:**[^1]
+[^1]: **Note:** The contents of this page are arranged in the descending order.
+ - ### [Level1](#level1)
+ - ### [Level2](#level2)
+===
 
 # Level2
 ### Experiment 1 - LED Program Using Blynk App
@@ -175,7 +176,7 @@ Jumper wires
 #### Code
 
 
-![4 UltrasS](https://user-images.githubusercontent.com/67751535/140392891-458fb08a-ed90-4c28-a5df-4d73ec1af47b.jpg
+![4 UltrasS](https://user-images.githubusercontent.com/67751535/140392891-458fb08a-ed90-4c28-a5df-4d73ec1af47b.jpg)
 
 ![4](https://user-images.githubusercontent.com/67751535/140394451-b623f6cc-7ebd-408c-ac85-af1a6a869fcd.png)
 
