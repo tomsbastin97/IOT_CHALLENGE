@@ -3,10 +3,10 @@
 > **Foxlab Makerspace** in association with **GTech - Group of Technology Companies** in Kerala is launching our prestigious program  **“Kerala IoT Challenge 2021”**,  with a vision to mould 100 IoT experts in Kerala, hosting on the µLearn platform. **Kerala IoT Challenge** is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1 and others can enter laterally to the desired layer after an evaluation.
 
 
-# **List of Contents:**[^1]
-[^1]: **Note:** The contents of this page are arranged in the descending order.
- - ### [Level1](#level1)
- - ### [Level2](#level2)
+# **List of Contents:**
+**Note:** *The contents of this page are arranged in the descending order.*
+ - ### [*Level1*](#myexp)
+ - ### [*Level2*](#level2)
 ---
 
 # Level2
@@ -61,7 +61,7 @@ The code is a part derived from a library package for setting up the blynk serve
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aU-hhqk4Ubo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Experiment 2 - IoT Remote Light Meter using Arduino IoT Cloud
+### Experiment 2 - IoT Remote Light Meter using Arduino IoT Cloud {#myexp}
 
 #### Components Reequired:
 ESP32 board
