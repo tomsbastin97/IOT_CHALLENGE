@@ -7,6 +7,17 @@
 **Note:** *The contents of this page are arranged in the descending order.*
  - ### [*Level1*](#level1)
     1. [Exp1](#experiment-1---hello-world-led-blinking)
+    2. [Exp2](#experiment-2---traffic-light)
+    3. [Exp3](#experiment-3---led-chasing-effect)
+    4. [Exp4](#experiment-4---button-controlled-led)
+    5. [Exp5](#experiment-5---buzzer)
+    6. [Exp6](#experiment-6---rgb-led)
+    7. [Exp7](#experiment-7---ldr-light-sensor)
+    8. [Exp8](#experiment-8---flame-sensor)
+    9. [Exp9](#experiment-9---lm35-temperature-ensor)
+    10. [Exp10](#experiment-10---remote-control-using-tsop)
+    11. [Exp11](#experiment-11---potentiometer-analog-value-reading)
+    12. [Exp12](#experiment-12---7-segment-display)
  - ### [*Level2*](#level2)
 ---
 
