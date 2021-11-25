@@ -19,6 +19,11 @@
     11. [Exp11](#experiment-11---potentiometer-analog-value-reading)
     12. [Exp12](#experiment-12---7-segment-display)
  - ### [*Level2*](#level2)
+    1. [Exp1](#experiment-1---led-program-using-blynk-app)
+    2. [Exp2](#experiment-2---iot-remote-light-meter-using-arduino-iot-cloud)
+    3. [Exp3](#experiment-3---soil-moisture-meter)
+    4. [Exp4](#experiment-4---ultrasonic-sensor)
+    5. [Exp5](#experiment-5---object-detection-using-ir-sensor)
 ---
 
 # Level2
@@ -73,7 +78,7 @@ The code is a part derived from a library package for setting up the blynk serve
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aU-hhqk4Ubo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Experiment 2 - IoT Remote Light Meter using Arduino IoT Cloud {#myexp}
+### Experiment 2 - IoT Remote Light Meter using Arduino IoT Cloud
 
 #### Components Reequired:
 ESP32 board
@@ -164,6 +169,15 @@ void onLedChange()  {
 ### Experiment 3 - Soil Moisture Meter
 
 ![3 SoilMoistr](https://user-images.githubusercontent.com/67751535/140392693-e5ccb666-8884-4634-9c46-0bcdd1ce49e6.jpg)
+
+#### Components Reequired:
+ESP32 board
+
+soil moisture sensor
+
+Arduino IoT cloud account
+
+Breadboard
 > **Note: Experiment 2 and 3 have the same components and code except for the change in sensor.**
 
 #### Circuit Diagram
@@ -187,26 +201,79 @@ Jumper wires
 
 #### Code
 
+```ino
+const int trigPin = 5;
+const int echoPin = 18;
+
+//define sound speed in cm/uS
+#define SOUND_SPEED 0.034
+#define CM_TO_INCH 0.393701
+
+long duration;
+float distanceCm;
+float distanceInch;
+
+void setup() {
+  Serial.begin(115200); // Starts the serial communication
+  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
+  pinMode(echoPin, INPUT); // Sets the echoPin as an Input
+}
+
+void loop() {
+  // Clears the trigPin
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  // Sets the trigPin on HIGH state for 10 micro seconds
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  
+  // Reads the echoPin, returns the sound wave travel time in microseconds
+  duration = pulseIn(echoPin, HIGH);
+  
+  // Calculate the distance
+  distanceCm = duration * SOUND_SPEED/2;
+  
+  // Convert to inches
+  distanceInch = distanceCm * CM_TO_INCH;
+  
+  // Prints the distance in the Serial Monitor
+  Serial.print("Distance (cm): ");
+  Serial.println(distanceCm);
+  Serial.print("Distance (inch): ");
+  Serial.println(distanceInch);
+  
+  delay(1000);
+}
+```
+
 
 ![4 UltrasS](https://user-images.githubusercontent.com/67751535/140392891-458fb08a-ed90-4c28-a5df-4d73ec1af47b.jpg)
 
 ![4](https://user-images.githubusercontent.com/67751535/140394451-b623f6cc-7ebd-408c-ac85-af1a6a869fcd.png)
 
-
-
+#### Output
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tKnXDdQtU30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
-### E5
+### Experiment 5 - Object Detection using IR Sensor
 
 ![5 Ir](https://user-images.githubusercontent.com/67751535/140392118-9b45b197-d6e7-467f-a8a2-2f0c3e5bde06.jpg)
 
+#### Components Required:
+ESP32 board
+
+IR sensor module
+
+Arduino IoT cloud account
+
+Breadboard
+
+#### Circuit Diagram:
 
 ![5](https://user-images.githubusercontent.com/67751535/140394502-cecde79b-c28c-4c1b-aed7-f1e1fedc8f7e.png)
 
-
+#### Output
 
 ![5 IrOut](https://user-images.githubusercontent.com/67751535/140392992-9a8cb0a6-7453-4932-a599-3af987936cd7.jpg)
 
