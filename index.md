@@ -29,6 +29,8 @@
 # Level2
 ### Experiment 1 - LED Program Using Blynk App
 
+![1](https://user-images.githubusercontent.com/67751535/140394256-df8bc5b6-75bd-4339-b1a3-a8401b7a0faa.png)
+
 #### Components Required:
 ESP32 board
 
@@ -73,8 +75,6 @@ void loop() {
 The code is a part derived from a library package for setting up the blynk server.
 
 #### Output
-
-![1](https://user-images.githubusercontent.com/67751535/140394256-df8bc5b6-75bd-4339-b1a3-a8401b7a0faa.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aU-hhqk4Ubo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -190,6 +190,8 @@ Breadboard
 
 ### Experiment 4 - Ultrasonic Sensor
 
+![4 UltrasS](https://user-images.githubusercontent.com/67751535/140392891-458fb08a-ed90-4c28-a5df-4d73ec1af47b.jpg)
+
 #### Components Required:
 HC-SR04 Ultrasonic Sensor
 
@@ -247,8 +249,7 @@ void loop() {
 }
 ```
 
-
-![4 UltrasS](https://user-images.githubusercontent.com/67751535/140392891-458fb08a-ed90-4c28-a5df-4d73ec1af47b.jpg)
+#### Circuit Diagram
 
 ![4](https://user-images.githubusercontent.com/67751535/140394451-b623f6cc-7ebd-408c-ac85-af1a6a869fcd.png)
 
@@ -277,8 +278,7 @@ Breadboard
 
 ![5 IrOut](https://user-images.githubusercontent.com/67751535/140392992-9a8cb0a6-7453-4932-a599-3af987936cd7.jpg)
 
-
-
+---
 
 # LEVEL1
 
